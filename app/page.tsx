@@ -7,14 +7,15 @@ import Reservas from "@/section/Reservasi";
 import Testimonial from "@/section/Testimonial";
 import { Metadata } from "next/dist/lib/metadata/types/metadata-interface";
 
-export const metadata: Metadata
- = {
-  title: 'اسم منتجك أو خدمتك | وصف مختصر وجذاب',
-  description: 'وصف دقيق لصفحة الهبوط يشرح القيمة التي تقدمها للزائر في حدود 150-160 حرفاً.',
+export const metadata: Metadata = {
+  title: "Klinik 24",
+  description:
+    "Klinik 24 hadir 24 jam dengan layanan kesehatan terpercaya, konsultasi dokter, pemeriksaan medis, fasilitas nyaman, dan reservasi praktis untuk kebutuhan Anda.",
   openGraph: {
-    title: 'اسم منتجك أو خدمتك',
-    description: 'الوصف الذي سيظهر عند مشاركة رابط الصفحة على منصات التواصل.',
-    images: ['/og-image.jpg'], // رابط الصورة التي ستظهر عند المشاركة
+    title: "Klinik 24 | Layanan Kesehatan 24 Jam",
+    description:
+      "Klinik 24 hadir 24 jam dengan layanan kesehatan terpercaya, konsultasi dokter, pemeriksaan medis, fasilitas nyaman, dan reservasi praktis untuk kebutuhan Anda.",
+    images: ["/og-image.jpg"],
   },
 };
 
